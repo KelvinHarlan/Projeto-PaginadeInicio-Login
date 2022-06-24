@@ -1,0 +1,145 @@
+*{
+font-family:Arial, Helvetica, sans-serif;;
+margin: 0;
+padding: 0;
+}
+
+body{
+    background: url(https://img.freepik.com/fotos-/dark-gradient-blue-background_1258-1348.jpg?w=826);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+nav{
+    background-color: transparent;
+    text-align: right;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.principal{
+    width: auto;
+    height: auto;
+}
+.favicon img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    margin-left: 190px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgba(0, 4, 27, 0.801);
+}
+span{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.box_login{
+    width: 850px;
+    height: 130px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right:auto;
+    display: inline-block;
+    padding-bottom: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px rgba(0, 47, 90, 0.438);
+}
+.login{
+    text-align: center;
+    margin-top: 5px;
+    z-index: 0;
+
+}
+.login #user{
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    z-index: 0;
+    text-align:center;
+}
+
+.ico_user img{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.ico_password img{
+    width: 53px;
+    height: auto;
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 170px;
+
+}
+.puser{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.863);
+    z-index: 0;
+}
+
+.login #senha{
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 1px;
+    z-index:0;
+}
+.psenha{
+        margin-left: 150px;
+        margin-top: 50px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.863);
+        z-index: 0;
+    }
+
+.cadastro a{
+    margin-top: 50px;
+    margin-left: 380px;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 8px;
+}
+
+.imagem img{
+    width: 600px;
+    height: auto;
+    position: relative;
+    margin-top: -105px;
+}
